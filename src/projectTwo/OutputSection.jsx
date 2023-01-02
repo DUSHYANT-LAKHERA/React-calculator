@@ -52,10 +52,10 @@ function totalTipCustomer(){
                     </table>
                 </div>
 
-                <a type="button" onClick={totalTipCustomer} class=" d-grid btn btn-outline-dark mt-5  col-md-4 ">Total Tip & Customer</a>
+                <a href type="button" onClick={totalTipCustomer} class=" d-grid btn btn-outline-dark mt-5  col-md-4 ">Total Tip & Customer</a>
 
                 {/* ==========================Alert========================== */}
-                <div class="alert alert-info alert-dismissible fade show col-md-6 mt-5 mb-4" role="alert">
+                <div class="alert alert-info alert-dismissible fade show col-md-4 mt-5 mb-4" role="alert">
                     Total Customer :  <strong> 
                         {
                         show ? props.data.length : ''
@@ -68,7 +68,7 @@ function totalTipCustomer(){
                         } 
                         </strong> .
                        
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    {/*<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>*/}
                 </div>
 
             </div>

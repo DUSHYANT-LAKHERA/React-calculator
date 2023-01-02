@@ -67,7 +67,7 @@ props.AddDetails(details)
                     </select>
                 </div>
 
-                <a type="button" onClick={calculateBill} class=" d-grid btn btn-info mt-4 col-md-6 ">Add Customer</a>
+                <a href  type="button" onClick={calculateBill} class=" d-grid btn btn-info mt-4 col-md-6 ">Add Customer</a>
 
             </div>
 
